@@ -21,9 +21,6 @@ export default function App() {
           <p className="site-tag">Design • Strategy • Web</p>
           <h1 className="hero-title">Designing Modern Websites for Growth</h1>
           <p className="hero-subtitle">We create responsive, SEO-friendly websites and integrate smart CRM solutions to help your business scale effortlessly.</p>
-          <div className="cta-row">
-            <a className="btn btn-primary" href="#contact">Start Your Project</a>
-          </div>
         </section>
 
         <section id="services" className="features-section">
