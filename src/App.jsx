@@ -1,11 +1,12 @@
 import React from 'react'
+import logo from './logo.png'
 
 export default function App() {
   return (
     <div className="site-wrapper">
       <header className="topbar">
         <div className="brand">
-          <img className="brand-logo" src="/logo.png" alt="Dezyn Aesthetix logo" />
+          <img className="brand-logo" src={logo} alt="Dezyn Aesthetix logo" />
           <span className="brand-name">Dezyn Aesthetix</span>
         </div>
         <nav className="nav-links" aria-label="primary">
