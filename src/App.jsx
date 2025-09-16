@@ -12,7 +12,7 @@ export default function App() {
         <nav className="nav-links" aria-label="primary">
           <a href="#services">Services</a>
           <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+          <a href="mailto:info@dezynaesthetix.com">Contact</a>
         </nav>
       </header>
 
@@ -22,7 +22,7 @@ export default function App() {
           <h1 className="hero-title">Dezyn Aesthetix</h1>
           <p className="hero-subtitle">We build high-quality websites and provide CRM management to help you grow efficiently.</p>
           <div className="cta-row">
-            <a className="btn btn-primary" href="#contact">Get Started</a>
+            <a className="btn btn-primary" href="mailto:info@dezynaesthetix.com">Get Started</a>
           </div>
         </section>
 
@@ -42,6 +42,12 @@ export default function App() {
             <h3 className="feature-title">Brand Identity</h3>
             <p className="feature-desc">Logos, color systems, and tone that align your visual voice with business goals.</p>
           </div>
+        </section>
+
+        <section id="contact" className="contact-section">
+          <h2 className="contact-title">Contact</h2>
+          <p className="contact-text">Email us at <a className="contact-link" href="mailto:info@dezynaesthetix.com">info@dezynaesthetix.com</a></p>
+          <div className="cta-row"><a className="btn btn-primary" href="mailto:info@dezynaesthetix.com">Email Us</a></div>
         </section>
       </main>
 
