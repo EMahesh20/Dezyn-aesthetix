@@ -5,7 +5,7 @@ export default function App() {
     <div className="site-wrapper">
       <header className="topbar">
         <div className="brand">
-          <span className="brand-mark">DA</span>
+          <img className="brand-logo" src="/logo.png" alt="Dezyn Aesthetix logo" />
           <span className="brand-name">Dezyn Aesthetix</span>
         </div>
         <nav className="nav-links" aria-label="primary">
