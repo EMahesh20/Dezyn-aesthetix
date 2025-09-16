@@ -23,7 +23,6 @@ export default function App() {
           <p className="hero-subtitle">We build high-quality websites and provide CRM management to help you grow efficiently.</p>
           <div className="cta-row">
             <a className="btn btn-primary" href="#contact">Get Started</a>
-            <a className="btn btn-ghost" href="#work">View Portfolio</a>
           </div>
         </section>
 
