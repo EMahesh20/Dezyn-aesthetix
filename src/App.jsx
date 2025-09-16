@@ -5,7 +5,6 @@ export default function App() {
     <div className="site-wrapper">
       <header className="topbar">
         <div className="brand">
-          <img className="brand-logo" src="/logo.svg" alt="Dezyn Aesthetix logo" />
           <span className="brand-name">Dezyn Aesthetix</span>
         </div>
         <nav className="nav-links" aria-label="primary">
