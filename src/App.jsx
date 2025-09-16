@@ -20,7 +20,7 @@ export default function App() {
         <section className="hero-section">
           <p className="site-tag">Design • Strategy • Web</p>
           <h1 className="hero-title">Dezyn Aesthetix</h1>
-          <p className="hero-subtitle">Elegant, modern experiences that elevate your brand and convert visitors into loyal customers.</p>
+          <p className="hero-subtitle">We build high-quality websites and provide CRM management to help you grow efficiently.</p>
           <div className="cta-row">
             <a className="btn btn-primary" href="#contact">Get Started</a>
             <a className="btn btn-ghost" href="#work">View Portfolio</a>
@@ -30,18 +30,18 @@ export default function App() {
         <section id="services" className="features-section">
           <div className="feature-card">
             <div className="feature-icon" aria-hidden>🎨</div>
-            <h3 className="feature-title">Brand Identity</h3>
-            <p className="feature-desc">Logos, color systems, and tone that align your visual voice with business goals.</p>
+            <h3 className="feature-title">High-Quality Websites</h3>
+            <p className="feature-desc">Responsive, SEO-friendly sites optimized for speed, accessibility, and conversion.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon" aria-hidden>🧭</div>
-            <h3 className="feature-title">UX Strategy</h3>
-            <p className="feature-desc">Research-driven flows and wireframes that simplify journeys and improve conversion.</p>
+            <h3 className="feature-title">CRM Management</h3>
+            <p className="feature-desc">Implementation, integrations, automation, and dashboards to centralize customer data and workflows.</p>
           </div>
           <div className="feature-card">
             <div className="feature-icon" aria-hidden>⚡</div>
-            <h3 className="feature-title">Web Development</h3>
-            <p className="feature-desc">Fast, accessible websites engineered with modern React tooling and best practices.</p>
+            <h3 className="feature-title">Brand Identity</h3>
+            <p className="feature-desc">Logos, color systems, and tone that align your visual voice with business goals.</p>
           </div>
         </section>
       </main>
