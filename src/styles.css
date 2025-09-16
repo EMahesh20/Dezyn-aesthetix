@@ -1,6 +1,6 @@
 :root{color-scheme:light;--brand-600:#8b5cf6;--brand-700:#7c3aed;--brand-800:#6d28d9;--ink:#111827;--muted:#6b7280;--surface:#ffffff;--card:#ffffff}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',Arial,'Apple Color Emoji','Segoe UI Emoji';line-height:1.5;color:var(--ink);background:radial-gradient(1200px 600px at 10% -10%,rgba(139,92,246,.12),transparent),radial-gradient(1000px 500px at 90% -10%,rgba(124,58,237,.12),transparent),linear-gradient(180deg,#ffffff,#ffffff)}
+body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',Arial,'Apple Color Emoji','Segoe UI Emoji';line-height:1.5;color:var(--ink);background:radial-gradient(1200px 600px at 10% -10%,rgba(139,92,246,.25),transparent),radial-gradient(1000px 500px at 90% -10%,rgba(124,58,237,.22),transparent),linear-gradient(180deg,#f5f3ff,#faf5ff)}
 
 .site-wrapper{min-height:100vh;display:flex;flex-direction:column}
 .topbar{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid rgba(0,0,0,.06);backdrop-filter:saturate(140%) blur(6px);position:sticky;top:0;z-index:10;background:rgba(255,255,255,.8)}
