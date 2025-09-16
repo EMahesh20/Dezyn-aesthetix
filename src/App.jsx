@@ -24,17 +24,14 @@ export default function App() {
 
         <section id="services" className="features-section">
           <div className="feature-card">
-            <div className="feature-icon" aria-hidden>🎨</div>
             <h3 className="feature-title">Websites</h3>
             <p className="feature-desc">Responsive, fast, SEO-optimized websites to drive traffic and conversion.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon" aria-hidden>🧭</div>
             <h3 className="feature-title">CRM</h3>
             <p className="feature-desc">Automated workflows and dashboards to manage your customer data efficiently.</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon" aria-hidden>⚡</div>
             <h3 className="feature-title">Brand Identity</h3>
             <p className="feature-desc">Logos, color systems, and tone that align your visual voice with business goals.</p>
           </div>
