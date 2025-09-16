@@ -47,12 +47,13 @@ export default function App() {
         <section id="contact" className="contact-section">
           <h2 className="contact-title">Contact</h2>
           <p className="contact-text">Email us at <a className="contact-link" href="mailto:info@dezynaesthetix.com">info@dezynaesthetix.com</a></p>
+          <p className="contact-text">Instagram: <a className="contact-link" href="https://instagram.com/dezynaesthetix" target="_blank" rel="noopener noreferrer">@dezynaesthetix</a></p>
           <div className="cta-row"><a className="btn btn-primary" href="mailto:info@dezynaesthetix.com">Email Us</a></div>
         </section>
       </main>
 
       <footer className="site-footer">
-        <p className="footer-text">© {new Date().getFullYear()} Dezyn Aesthetix • All rights reserved.</p>
+        <p className="footer-text">© {new Date().getFullYear()} Dezyn Aesthetix • All rights reserved • <a className="contact-link" href="https://instagram.com/dezynaesthetix" target="_blank" rel="noopener noreferrer">Instagram</a></p>
       </footer>
     </div>
   )
