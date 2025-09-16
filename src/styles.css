@@ -1,0 +1,7 @@
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',Arial,'Apple Color Emoji','Segoe UI Emoji';line-height:1.5}
+.app-container{display:grid;min-height:100vh;place-items:center;padding:24px}
+.content-section{max-width:720px;text-align:center}
+.brand-title{font-size:2rem;margin:0 0 8px}
+.lead-text{margin:0;color:#555}
