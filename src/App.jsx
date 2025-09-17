@@ -9,7 +9,7 @@ export default function App() {
     <div className="site-wrapper">
       <header className="topbar">
         <div className="brand">
-          <Link to="/" className="brand-name">Dezyn Aesthetix</Link>
+          <Link to="/" className="brand-name" aria-label="Home">Dezyn Aesthetix</Link>
         </div>
         <nav className="nav-links" aria-label="primary">
           <Link to="/">Home</Link>
