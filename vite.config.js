@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // very important for static hosting
+  base: '/', // very important for static hosting
 })
