@@ -6,6 +6,7 @@ export default function About() {
       <section className="about-section">
         <h2 className="about-title">About</h2>
         <div className="about-card">
+          <h3 className="about-subtitle">Company Story</h3>
           <p className="about-text">Dezyn Aesthetix was founded with a simple belief: every business deserves a strong digital presence, no matter its size. We noticed that many companies either had outdated websites or no online presence at all — and were losing opportunities because of it. That’s where we stepped in.</p>
           <p className="about-text">We started Dezyn Aesthetix to bridge that gap. Our team focuses on designing modern, responsive websites and integrating smart CRM systems that help businesses not only look professional but also operate more efficiently. We’re passionate about giving brands the tools they need to grow and compete in today’s digital-first world.</p>
         </div>
