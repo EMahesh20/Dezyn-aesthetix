@@ -13,7 +13,7 @@ export default function App() {
         </div>
         <nav className="nav-links" aria-label="primary">
           <a href="/#services">Services</a>
-          <Link to="/contact#contact">Contact</Link>
+          <a href="/#contact">Contact</a>
           <Link to="/about">About</Link>
         </nav>
       </header>
@@ -31,7 +31,7 @@ export default function App() {
           <p className="footer-text">© 2025 Dezyn Aesthetix • All rights reserved.</p>
           <div className="footer-sitemap">
             <a href="/#services">Services</a>
-            <a href="/contact#contact">Contact</a>
+            <a href="/#contact">Contact</a>
             <a href="/about">About</a>
           </div>
           <div className="social-links" aria-label="social links">
