@@ -24,12 +24,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="contact-section">
-        <h2 className="contact-title">Contact</h2>
-        <p className="contact-text">Email us at <a className="contact-link" href="mailto:info@dezynaesthetix.com">info@dezynaesthetix.com</a></p>
-        <p className="contact-text">Instagram: <a className="contact-link" href="https://instagram.com/dezynaesthetix" target="_blank" rel="noopener noreferrer">@dezynaesthetix</a></p>
-        <div className="cta-row"><a className="btn btn-primary" href="mailto:info@dezynaesthetix.com">Email Us</a></div>
-      </section>
     </main>
   )
 }
