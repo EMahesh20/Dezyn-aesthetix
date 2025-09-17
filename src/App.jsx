@@ -1,4 +1,7 @@
 import React from 'react'
+import { Routes, Route, Link } from 'react-router-dom'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
 
 export default function App() {
   return (
@@ -8,53 +11,18 @@ export default function App() {
           <span className="brand-name">Dezyn Aesthetix</span>
         </div>
         <nav className="nav-links" aria-label="primary">
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <a href="/#services">Services</a>
+          <a href="/#work">Work</a>
+          <a href="/#contact">Contact</a>
+          <Link to="/about">About</Link>
         </nav>
       </header>
 
-      <main className="app-container">
-        <section className="hero-section">
-          <p className="site-tag">Design • Strategy • Web</p>
-          <h1 className="hero-title">Designing Modern Websites for Growth</h1>
-          <p className="hero-subtitle">We create responsive, SEO-friendly websites and integrate smart CRM solutions to help your business scale effortlessly.</p>
-        </section>
-
-        <section id="services" className="features-section">
-          <div className="feature-card">
-            <h3 className="feature-title">Websites</h3>
-            <p className="feature-desc">Responsive, fast, SEO-optimized websites to drive traffic and conversion.</p>
-          </div>
-          <div className="feature-card">
-            <h3 className="feature-title">CRM</h3>
-            <p className="feature-desc">Automated workflows and dashboards to manage your customer data efficiently.</p>
-          </div>
-          <div className="feature-card">
-            <h3 className="feature-title">Brand Identity</h3>
-            <p className="feature-desc">Logos, color systems, and tone that align your visual voice with business goals.</p>
-          </div>
-        </section>
-
-        <section id="contact" className="contact-section">
-          <h2 className="contact-title">Contact</h2>
-          <p className="contact-text">Email us at <a className="contact-link" href="mailto:info@dezynaesthetix.com">info@dezynaesthetix.com</a></p>
-          <p className="contact-text">Instagram: <a className="contact-link" href="https://instagram.com/dezynaesthetix" target="_blank" rel="noopener noreferrer">@dezynaesthetix</a></p>
-          <div className="cta-row"><a className="btn btn-primary" href="mailto:info@dezynaesthetix.com">Email Us</a></div>
-        </section>
-        <section id="about" className="about-section">
-          <h2 className="about-title">About</h2>
-          <div className="about-card">
-            <h3 className="about-subtitle">📖 Company Story</h3>
-            <p className="about-text">Dezyn Aesthetix was founded with a simple belief: every business deserves a strong digital presence, no matter its size. We noticed that many companies either had outdated websites or no online presence at all — and were losing opportunities because of it. That’s where we stepped in.</p>
-            <p className="about-text">We started Dezyn Aesthetix to bridge that gap. Our team focuses on designing modern, responsive websites and integrating smart CRM systems that help businesses not only look professional but also operate more efficiently. We’re passionate about giving brands the tools they need to grow and compete in today’s digital-first world.</p>
-            <h3 className="about-subtitle">🌍 Vision</h3>
-            <p className="about-text">To empower businesses without a digital presence by giving them websites and systems that become the foundation of their growth.</p>
-            <h3 className="about-subtitle">🎯 Mission</h3>
-            <p className="about-text">To design high-quality, responsive websites and seamless CRM solutions that make it easy for businesses to connect with customers, build trust, and scale efficiently.</p>
-          </div>
-        </section>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </main>
 
       <footer className="site-footer">
