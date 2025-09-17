@@ -1,4 +1,5 @@
 :root{color-scheme:light;--brand-600:#8b5cf6;--brand-700:#7c3aed;--brand-800:#6d28d9;--ink:#111827;--muted:#6b7280;--surface:#ffffff;--card:#ffffff}
+html{scroll-behavior:smooth}
 *{box-sizing:border-box}
 body{margin:0;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,'Noto Sans',Arial,'Apple Color Emoji','Segoe UI Emoji';line-height:1.5;color:var(--ink);background:radial-gradient(1200px 600px at 10% -10%,rgba(139,92,246,.25),transparent),radial-gradient(1000px 500px at 90% -10%,rgba(124,58,237,.22),transparent),linear-gradient(180deg,#f5f3ff,#faf5ff)}
 
@@ -6,7 +7,7 @@ body{margin:0;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Ub
 .topbar{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid rgba(0,0,0,.06);backdrop-filter:saturate(140%) blur(6px);position:sticky;top:0;z-index:10;background:rgba(255,255,255,.8)}
 .brand{display:flex;align-items:center;gap:10px}
 .brand-mark{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--brand-600),var(--brand-800));font-weight:700}
-.brand-name{font-weight:700;letter-spacing:.02em;background:linear-gradient(135deg,var(--brand-700),var(--brand-600));-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand-name{font-weight:700;letter-spacing:.02em;background:linear-gradient(135deg,var(--brand-700),var(--brand-600));-webkit-background-clip:text;background-clip:text;color:transparent;text-decoration:none}
 .brand-logo{width:32px;height:32px;border-radius:8px;object-fit:contain;display:inline-block}
 .nav-links{display:flex;gap:16px}
 .nav-links a{color:#4b5563;text-decoration:none}
@@ -38,6 +39,12 @@ body{margin:0;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Ub
 .contact-text{margin:0 0 12px;color:#4b5563}
 .contact-link{color:var(--brand-700);text-decoration:none}
 .contact-link:hover{text-decoration:underline}
+
+.contact-form{max-width:720px;margin:0 auto;display:grid;gap:14px}
+.form-field{display:grid;gap:6px}
+.form-label{font-weight:600;color:#374151}
+.form-control{padding:10px 12px;border-radius:14px;border:1px solid rgba(0,0,0,.08);background:#fff;outline:none;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.form-control:focus{border-color:rgba(124,58,237,.45);box-shadow:0 0 0 4px rgba(124,58,237,.12)}
 
 .site-footer{margin-top:auto;padding:24px;text-align:center;color:#374151;border-top:1px solid rgba(0,0,0,.06);background:#f8f7ff}
 .footer-grid{display:grid;gap:12px;justify-items:center}
