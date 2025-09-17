@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
 
 export default function App() {
   return (
@@ -12,8 +13,7 @@ export default function App() {
         </div>
         <nav className="nav-links" aria-label="primary">
           <a href="/#services">Services</a>
-          <a href="/#work">Work</a>
-          <a href="/#contact">Contact</a>
+          <Link to="/contact#contact">Contact</Link>
           <Link to="/about">About</Link>
         </nav>
       </header>
@@ -22,6 +22,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
 
@@ -29,10 +30,9 @@ export default function App() {
         <div className="footer-grid">
           <p className="footer-text">© 2025 Dezyn Aesthetix • All rights reserved.</p>
           <div className="footer-sitemap">
-            <a href="#services">Services</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="/#services">Services</a>
+            <a href="/contact#contact">Contact</a>
+            <a href="/about">About</a>
           </div>
           <div className="social-links" aria-label="social links">
             <a className="social-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
