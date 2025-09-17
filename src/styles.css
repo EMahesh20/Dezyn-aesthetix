@@ -39,6 +39,12 @@ body{margin:0;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Ub
 .contact-link{color:var(--brand-700);text-decoration:none}
 .contact-link:hover{text-decoration:underline}
 
+.contact-form{max-width:720px;margin:0 auto;display:grid;gap:14px}
+.form-field{display:grid;gap:6px}
+.form-label{font-weight:600;color:#374151}
+.form-control{padding:10px 12px;border-radius:14px;border:1px solid rgba(0,0,0,.08);background:#fff;outline:none;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.form-control:focus{border-color:rgba(124,58,237,.45);box-shadow:0 0 0 4px rgba(124,58,237,.12)}
+
 .site-footer{margin-top:auto;padding:24px;text-align:center;color:#374151;border-top:1px solid rgba(0,0,0,.06);background:#f8f7ff}
 .footer-grid{display:grid;gap:12px;justify-items:center}
 .footer-sitemap{display:flex;gap:16px;flex-wrap:wrap}
